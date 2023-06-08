@@ -1,0 +1,4 @@
+rlimit AndThen(Tactic(ctx-simplify),Tactic(solve-eqs),Tactic(bv1-blast),Tactic(lia2card),Tactic(smt))
+time AndThen(Tactic(bv1-blast),Tactic(cofactor-term-ite),Tactic(lia2card),Tactic(bv1-blast),Tactic(smt))
+best AndThen(Tactic(simplify),Tactic(solve-eqs),Tactic(bv1-blast),Tactic(smt))
+time AndThen(Tactic(bv1-blast),Tactic(bit-blast),Tactic(smt))
