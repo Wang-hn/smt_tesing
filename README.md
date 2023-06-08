@@ -24,3 +24,4 @@ python3 scripts/validate.py \
     | tee xxx.log
 ```
 
+各步骤应获取的中间及对应格式可于experiments/results/core_exp1中查看
