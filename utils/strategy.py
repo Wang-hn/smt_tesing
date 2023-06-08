@@ -16,7 +16,7 @@ limitations under the License.
 
 from collections import OrderedDict
 from enum import Enum
-from fastsmt.language.objects import *
+from language.objects import *
 
 MAX_INT_VALUE = 1000
 
