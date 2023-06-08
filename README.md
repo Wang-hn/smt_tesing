@@ -4,6 +4,17 @@
 
 https://github.com/eth-sri/fastsmt/
 
+环境配置可参考如下信息
+
+```shell
+virtual -p /usr/bin/python3.6 py3env
+source py3env/bin/activate
+pip install z3-solver
+pip install timeout-decorator
+pip install torch torchvision torchaudio
+
+```
+
 实验数据集需要由使用方提供，程序运行方式可见examples文件夹相关示例，一次完整的运行流程为：
 
 ```shell
