@@ -425,8 +425,8 @@ class Agent:
         self.enumerator = StrategyEnumerator(**config["tactics_config"])
         self.tokenizer = GoalTokenizer()
 
-        self.online_net = DQN(117, len(self.enumerator.all_tactics))
-        self.target_net = DQN(117, len(self.enumerator.all_tactics))
+        self.online_net = DQN(118, len(self.enumerator.all_tactics))
+        self.target_net = DQN(118, len(self.enumerator.all_tactics))
 
         self.optimizer = torch.optim.Adam(self.online_net.parameters(), lr=0.001)
         # self.scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, 100, gamma=0.9)
