@@ -2,7 +2,7 @@
 
 本程序主要用于z3背景下的SMT求解加速使用，内含部分对FastSMT项目文件的引用，相关内容可参见：
 
-https://github.com/eth-sri/fastsmt/blob/master/fastsmt/experiments/download_data.sh
+https://github.com/eth-sri/fastsmt/
 
 实验数据集需要由使用方提供，程序运行方式可见examples文件夹相关示例，一次完整的运行流程为：
 
