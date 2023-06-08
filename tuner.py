@@ -16,7 +16,7 @@ limitations under the License.
 
 import random
 
-from fastsmt.utils.strategy import StrategyEnumerator
+from utils.strategy import StrategyEnumerator
 import torch
 from torch import nn
 import timeout_decorator
