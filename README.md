@@ -7,6 +7,8 @@ https://github.com/eth-sri/fastsmt/
 实验数据集需要由使用方提供，程序运行方式可见examples文件夹相关示例，一次完整的运行流程为：
 
 ```shell
+mkdir -p cache/model
+mkdir tmp
 ./examples/gen_tactic_seqs.sh
 ./examples/filter_tactic_seqs.sh
 ./examples/quick_tuner.sh
