@@ -1,4 +1,4 @@
-# smt_tesing
+# smt_testing
 
 本程序主要用于z3背景下的SMT求解加速使用，内含部分对FastSMT项目文件的引用，相关内容可参见：
 
